@@ -3,7 +3,11 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {},
-  "extensions": [],
+  "settings": {
+    "terminal.integrated.shell.*": "zsh"
+  },
+  "extensions": [
+    "hediet.vscode-drawio"
+  ],
   "remoteUser": "vscode"
 }
